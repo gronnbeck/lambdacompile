@@ -83,7 +83,7 @@ func templatesEndpointGotmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "templates/endpoint.gotmpl", size: 211, mode: os.FileMode(420), modTime: time.Unix(1484675393, 0)}
+	info := bindataFileInfo{name: "templates/endpoint.gotmpl", size: 211, mode: os.FileMode(420), modTime: time.Unix(1484676670, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

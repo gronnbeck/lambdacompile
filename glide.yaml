@@ -4,3 +4,5 @@ import:
   version: ^3.0.7
   subpackages:
   - '...'
+- package: github.com/codeskyblue/go-sh
+  version: b097669b1569203c3ce05a6b8717d43140fdb3d5

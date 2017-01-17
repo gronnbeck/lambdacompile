@@ -1,6 +1,10 @@
-hash: 3ac6cdb1b09b6e8fdd3c21b6c9b9f27665495583dce4433df6bd3f9c2d632e02
-updated: 2017-01-17T18:13:09.331223384+01:00
+hash: 17a9ec80f999150cbfd4e13c61d7cc0457046af7a8db06764267380bc5a5beed
+updated: 2017-01-17T19:19:15.925867565+01:00
 imports:
+- name: github.com/codegangsta/inject
+  version: 33e0aa1cb7c019ccc3fbe049a8262a6403d30504
+- name: github.com/codeskyblue/go-sh
+  version: b097669b1569203c3ce05a6b8717d43140fdb3d5
 - name: github.com/jteeuwen/go-bindata
   version: bbd0c6e271208dce66d8fda4bc536453cd27fc4a
   subpackages:
