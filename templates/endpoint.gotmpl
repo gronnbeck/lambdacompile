@@ -1,0 +1,16 @@
+package main
+
+import (
+	"net/http"
+	"os"
+)
+
+const confPortEnvvar = "HTTP_LAMBDA_PORT"
+
+func main() {
+	port := os.Getenv(confPortEnvvar)
+
+	http.HandleFunc("/", endpoint)
+
+	panic(http.ListenAndServe(port, nil))
+}

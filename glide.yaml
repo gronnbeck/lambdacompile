@@ -1,0 +1,6 @@
+package: github.com/gronnbeck/lambdacompile
+import:
+- package: github.com/jteeuwen/go-bindata
+  version: ^3.0.7
+  subpackages:
+  - '...'
